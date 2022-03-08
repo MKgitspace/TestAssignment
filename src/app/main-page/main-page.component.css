@@ -1,0 +1,16 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidebar-box {
+    width: 20%;
+    height: 92vh;
+    background-color: rgb(33, 30, 30);
+}
+
+.preview-box {
+    width: 80%;
+    height: 92vh;
+}

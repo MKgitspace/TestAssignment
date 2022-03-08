@@ -1,0 +1,25 @@
+<div style="width: 100%;">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <p>Compose
+                <img class="icon" src="../../../assets/pen.png">
+            </p>
+        </li>
+        <li class="items" (click)="selectOption(inbox,'inbox')">
+            <p><img class="icon" src="../../../assets/inbox.png"> Inbox </p>
+            <p>{{inbox.length}}</p>
+        </li>
+        <li class="items" (click)="selectOption(send,'send')">
+            <p><img class="icon" src="../../../assets/send.png"> Send </p>
+            <p>{{send.length}}</p>
+        </li>
+        <li class="items" (click)="selectOption(draft,'draft')">
+            <p><img class="icon" src="../../../assets/draft.png"> Drafts </p>
+            <p>{{draft.length}}</p>
+        </li>
+        <li class="items" (click)="selectOption(trash,'trash')">
+            <p><img class="icon" src="../../../assets/trash.png"> Trash </p>
+            <p>{{trash.length}}</p>
+        </li>
+    </ul>
+</div>

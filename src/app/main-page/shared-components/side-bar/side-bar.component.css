@@ -1,0 +1,60 @@
+/* Sidebar Styles */
+
+.sidebar-nav {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li p {
+    display: block;
+    text-decoration: none;
+    color: white
+}
+
+.sidebar-nav .items:hover {
+    text-decoration: none;
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+}
+
+.icon {
+    width: 20px;
+    height: 18px;
+    padding-right: 10px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items p {
+    font-weight: 600;
+}
+
+.sidebar-nav li p:active,
+.sidebar-nav li p:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+    text-align: center;
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 20px;
+    background: linear-gradient(168.01deg, #35c2fa 0, #76a1fc 100%);
+}
+
+.sidebar-nav>.sidebar-brand p {
+    color: #ffffff;
+    margin-top: 0px;
+}

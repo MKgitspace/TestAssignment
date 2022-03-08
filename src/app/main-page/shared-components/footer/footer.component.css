@@ -1,0 +1,12 @@
+p {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+div {
+    height: 100%;
+    background-color: gainsboro;
+}

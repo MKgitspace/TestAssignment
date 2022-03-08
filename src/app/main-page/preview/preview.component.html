@@ -1,0 +1,24 @@
+<div style="display: flex;">
+
+    <div class="list-container">
+        <app-list></app-list>
+    </div>
+    <div style="width: 70%;">
+        <div *ngIf="mailList.length>0">
+            <div class="message-nav">
+                <div class="message-title-row">
+                    <p>{{setMessage.title}}</p>
+                    <img class="icon" src="../../../assets/trash.png" (click)="trash(setMessage,selectType)">
+                </div>
+                <div class="message-des-row">
+                    <p>{{setMessage.subject}}</p>
+                    <p>{{setMessage.date | date:'medium'}}</p>
+                </div>
+
+            </div>
+            <div class="message-container">
+                {{setMessage.description}}
+            </div>
+        </div>
+    </div>
+</div>

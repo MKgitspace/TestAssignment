@@ -1,0 +1,21 @@
+<div>
+    <div *ngIf="mailList.length>0">
+        <div class="list" *ngFor="let item of mailList; index as i">
+            <div class="list-item" [ngClass]="{ active: index == item.id }" (click)="chooseItem(item)">
+                <div class="title-row">
+                    <p [ngClass]="{ blue: index == item.id }" class="title-text">{{item.title}}</p>
+                    <img *ngIf="item.unread" class="dot" src="../../../assets/dot.png" alt="">
+
+                </div>
+                <div class="des-row">
+                    <p [ngClass]="{ blue: index == item.id }">{{item.subject}}</p>
+                    <p [ngClass]="{ blue: index == item.id }">{{item.date | date:'mediumDate'}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="mailList.length==0">
+        <p class="empty">Nothing to see here great job</p>
+    </div>
+
+</div>

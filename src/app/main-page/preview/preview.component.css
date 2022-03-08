@@ -1,0 +1,118 @@
+/* .list-item :hover {
+    background-color: gainsboro;
+    cursor: pointer;
+    color: skyblue;
+} */
+
+
+/* .list-item :hover {
+    cursor: pointer;
+    color: skyblue;
+} */
+
+.list:hover {
+    background-color: gainsboro;
+    color: skyblue;
+    cursor: pointer;
+}
+
+.list-item {
+    padding: 2px;
+    box-shadow: 5px 1px 3px gainsboro;
+    margin-bottom: 3px;
+}
+
+.empty {
+    margin-top: auto;
+    padding-top: 50vh;
+    text-align: center;
+    color: gainsboro;
+}
+
+.list-item p {
+    margin: 2px;
+}
+
+.list-container {
+    width: 30%;
+    overflow-y: scroll;
+    height: 92vh;
+}
+
+.title-row {
+    display: flex;
+    padding: 5px 25px 0px 15px;
+    justify-content: space-between;
+}
+
+.title-row p {
+    margin-top: auto;
+}
+
+.title-text {
+    font-weight: 600;
+    font-size: 17px;
+    color: gray;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    /* font-weight: 700;
+    font-size: 40px;
+    color: gray; */
+}
+
+.des-row {
+    display: flex;
+    font-size: 15px;
+    color: gray;
+    padding: 5px 25px 5px 15px;
+    justify-content: space-between;
+}
+
+.active-status {
+    color: #1173eb;
+}
+
+.message-nav {
+    background-color: gainsboro;
+    color: black;
+}
+
+.message-title-row {
+    display: flex;
+    padding: 0px 17px 0px 15px;
+    justify-content: space-between
+}
+
+.message-title-row p {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.icon {
+    width: 25px;
+    height: 20px;
+    padding: 10px 0px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.message-des-row {
+    display: flex;
+    font-size: 17px;
+    color: gray;
+    padding: 12px 25px 5px 15px;
+    justify-content: space-between;
+}
+
+.message-des-row p {
+    margin: 0px;
+}
+
+.message-container {
+    padding: 17px;
+}

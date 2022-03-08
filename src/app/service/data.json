@@ -1,0 +1,72 @@
+{
+    "inbox": [{
+            "id": 11,
+            "title": "Dribbble Digest",
+            "subject": "Dribbble",
+            "unread": true,
+            "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.",
+            "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+        },
+        {
+            "id": 22,
+            "title": "Broker PR?",
+            "subject": "CHRISTOPHER MEDINA",
+            "unread": false,
+            "description": " Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. ",
+            "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+        },
+        {
+            "id": 33,
+            "title": "Join the Fishblowl Team",
+            "subject": "SLACK HQ",
+            "unread": false,
+            "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. ",
+            "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+        }, {
+            "id": 44,
+            "title": "Concert tickets on sale",
+            "subject": "RAY LAMB",
+            "unread": true,
+            "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.",
+            "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+        }, {
+            "id": 55,
+            "title": "Verfiy your stackoverflow Account",
+            "subject": "STACKOVERFLOW",
+            "unread": false,
+            "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.",
+            "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+        }, {
+            "id": 66,
+            "title": "Your pen reached 11,000 views!",
+            "subject": "CODEPEN INFO",
+            "unread": true,
+            "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.",
+            "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+        }
+    ],
+    "send": [],
+    "draft": [],
+    "trash": [{
+        "id": 77,
+        "title": "Join the Fishblowl Team",
+        "subject": "SLACK HQ",
+        "unread": false,
+        "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. ",
+        "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+    }, {
+        "id": 88,
+        "title": "Concert tickets on sale",
+        "subject": "RAY LAMB",
+        "unread": true,
+        "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.",
+        "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+    }, {
+        "id": 99,
+        "title": "Verfiy your stackoverflow Account",
+        "subject": "STACKOVERFLOW",
+        "unread": false,
+        "description": "Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.",
+        "date": "Mon Mar 07 2022 20:34:31 GMT+0530 (India Standard Time)"
+    }]
+}
